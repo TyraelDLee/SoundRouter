@@ -1,0 +1,15 @@
+X:\Developing_II\CSsound\CSsound\CSsound\CSsound\bin\Debug\net6.0-windows\CSsound.exe
+X:\Developing_II\CSsound\CSsound\CSsound\CSsound\bin\Debug\net6.0-windows\CSsound.deps.json
+X:\Developing_II\CSsound\CSsound\CSsound\CSsound\bin\Debug\net6.0-windows\CSsound.runtimeconfig.json
+X:\Developing_II\CSsound\CSsound\CSsound\CSsound\bin\Debug\net6.0-windows\CSsound.dll
+X:\Developing_II\CSsound\CSsound\CSsound\CSsound\bin\Debug\net6.0-windows\ref\CSsound.dll
+X:\Developing_II\CSsound\CSsound\CSsound\CSsound\bin\Debug\net6.0-windows\CSsound.pdb
+X:\Developing_II\CSsound\CSsound\CSsound\CSsound\obj\Debug\net6.0-windows\CSsound.csproj.AssemblyReference.cache
+X:\Developing_II\CSsound\CSsound\CSsound\CSsound\obj\Debug\net6.0-windows\CSsound.GeneratedMSBuildEditorConfig.editorconfig
+X:\Developing_II\CSsound\CSsound\CSsound\CSsound\obj\Debug\net6.0-windows\CSsound.AssemblyInfoInputs.cache
+X:\Developing_II\CSsound\CSsound\CSsound\CSsound\obj\Debug\net6.0-windows\CSsound.AssemblyInfo.cs
+X:\Developing_II\CSsound\CSsound\CSsound\CSsound\obj\Debug\net6.0-windows\CSsound.csproj.CoreCompileInputs.cache
+X:\Developing_II\CSsound\CSsound\CSsound\CSsound\obj\Debug\net6.0-windows\CSsound.dll
+X:\Developing_II\CSsound\CSsound\CSsound\CSsound\obj\Debug\net6.0-windows\ref\CSsound.dll
+X:\Developing_II\CSsound\CSsound\CSsound\CSsound\obj\Debug\net6.0-windows\CSsound.pdb
+X:\Developing_II\CSsound\CSsound\CSsound\CSsound\obj\Debug\net6.0-windows\CSsound.genruntimeconfig.cache

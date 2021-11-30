@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "X:\\Developing_II\\CSsound\\CSsound\\CSsound\\CSsound\\CSsound.csproj": {}
+  },
+  "projects": {
+    "X:\\Developing_II\\CSsound\\CSsound\\CSsound\\CSsound\\CSsound.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\Developing_II\\CSsound\\CSsound\\CSsound\\CSsound\\CSsound.csproj",
+        "projectName": "CSsound",
+        "projectPath": "X:\\Developing_II\\CSsound\\CSsound\\CSsound\\CSsound\\CSsound.csproj",
+        "packagesPath": "C:\\Users\\leety\\.nuget\\packages\\",
+        "outputPath": "X:\\Developing_II\\CSsound\\CSsound\\CSsound\\CSsound\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\leety\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\leety\\.dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
