@@ -10,7 +10,7 @@ namespace Sound
     public class ThreadWorker
     {
         private volatile string _command = "X:\\Developing_II\\CSsound\\CSsound\\sv.exe";
-        private volatile string[] _audioDevices = new string[]{"{0.0.0.00000000}.{e07956cf-dfc8-43f5-9df3-8233f5248bd0}", "{0.0.0.00000000}.{c592895f-8195-411c-925f-89a016d8bf41}"};
+        private volatile string[] _audioDevices = new string[]{};
         private volatile bool _stop;
         private int _lastDisplay;
 
@@ -119,6 +119,11 @@ namespace Sound
         public void SetLocation(string location)
         {
             _command = location;
+        }
+
+        public void SetDeviceId(string[] list)
+        {
+            _audioDevices = list;
         }
 
         public void AddAudioDevice(int noOfDisp, string deviceID)

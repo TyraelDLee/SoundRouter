@@ -17,9 +17,9 @@ namespace Sound
         [STAThread]
         static void Main(string[] args)
         {
-            AllocConsole();
+            //AllocConsole();
             Application.Run(new SoundMapper());
-            FreeConsole();
+            //FreeConsole();
         }
     }
 }

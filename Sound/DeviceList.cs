@@ -53,6 +53,16 @@ namespace Sound
             }
             return list;
         }
+        
+        public string[] GetIds(string[] friendlyNames)
+        {
+            string[] list = new string[friendlyNames.Length];
+            for (int i = 0; i < friendlyNames.Length; i++)
+            {
+                list[i] = this.GetId(friendlyNames[i]);
+            }
+            return list;
+        }
 
         public string[] GetNames()
         {
@@ -95,7 +105,6 @@ namespace Sound
                     deviceList.Add(new Devices((string)Audio.OpenSubKey(device_names[i]+"\\Properties").GetValue("{b3f8fa53-0004-438e-9003-51a46e139bfc},6")," {0.0.0.00000000}."+device_names[i], (string)Audio.OpenSubKey(device_names[i]+"\\Properties").GetValue("{a45c254e-df1c-4efd-8020-67d146a850e0},2")));
                 }
             }
-            Console.WriteLine(deviceList.ToString());
             return deviceList;
         }
 

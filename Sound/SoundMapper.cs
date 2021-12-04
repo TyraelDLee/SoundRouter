@@ -13,10 +13,13 @@ namespace Sound
         public SoundMapper()
         {
             InitializeComponent();
+            DeviceList dl = DeviceList.GetAudioDevice();
             ThreadWorker tw = new ThreadWorker();
             Thread worker = new Thread(tw.Start);
+            
             worker.IsBackground = true;
             worker.Name = "bg worker";
+            tw.SetDeviceId(dl.GetIds(new []{"LG HDR 4K", "Alienware 18"}));
             worker.Start();
         }
 
