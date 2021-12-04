@@ -14,12 +14,23 @@ GUI development is under progress.
 <br>
 ## Config
 Currently, you need config to source to suit your evnirement.
-Modify those two value in ThreadWorker class. _command is the SoundVolumeView location. _audioDevices is the is your audio output device IDs, the order is corresponding to your display order (1st id the audio output device for display 1, 2ed  id the audio output device for display 2 and so on...). You can find those ids in your device manager.
+Modify those two value in SoundMapper class. The order is corresponding to your display order (1st id the audio output device for display 1, 2ed  id the audio output device for display 2 and so on...). You can find those ids in your device manager.
 ```c#
-    public class ThreadWorker
-    {
-        private volatile string _command = "...\\sv.exe";
-        private volatile string[] _audioDevices = new string[]{"{0.0.0.00000000}.{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}", "{0.0.0.00000000}.{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"};
+    public SoundMapper()
+        {
+            InitializeComponent();
+            DeviceList dl = DeviceList.GetAudioDevice();
+            ThreadWorker tw = new ThreadWorker();
+            Thread worker = new Thread(tw.Start);
+            
+            worker.IsBackground = true;
+            worker.Name = "bg worker";
+            // Set SoundVolumeView location here
+            tw.SetLocation("X:\\Developing_II\\CSsound\\CSsound\\sv.exe");
+            // Set audio device here.
+            tw.SetDeviceId(dl.GetIds(new []{"device 1", "device 2"}));//Friendly name.
+            worker.Start();
+        }
         
 ```
 <br><br>
