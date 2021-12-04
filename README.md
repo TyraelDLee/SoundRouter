@@ -26,7 +26,7 @@ Modify those two value in SoundMapper class. The order is corresponding to your 
             worker.IsBackground = true;
             worker.Name = "bg worker";
             // Set SoundVolumeView location here
-            tw.SetLocation("X:\\Developing_II\\CSsound\\CSsound\\sv.exe");
+            tw.SetLocation("SoundVolumeView location");
             // Set audio device here.
             tw.SetDeviceId(dl.GetIds(new []{"device 1", "device 2"}));//Friendly name.
             worker.Start();
