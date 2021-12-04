@@ -19,6 +19,7 @@ namespace Sound
             
             worker.IsBackground = true;
             worker.Name = "bg worker";
+            tw.SetLocation("X:\\Developing_II\\CSsound\\CSsound\\sv.exe");
             tw.SetDeviceId(dl.GetIds(new []{"LG HDR 4K", "Alienware 18"}));
             worker.Start();
         }

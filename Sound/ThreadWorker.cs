@@ -9,7 +9,7 @@ namespace Sound
 {
     public class ThreadWorker
     {
-        private volatile string _command = "X:\\Developing_II\\CSsound\\CSsound\\sv.exe";
+        private volatile string _command = "";
         private volatile string[] _audioDevices = new string[]{};
         private volatile bool _stop;
         private int _lastDisplay;
